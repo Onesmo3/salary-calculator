@@ -48,7 +48,12 @@ The system is built using standard web technologies and can operate both **onlin
 ---
 
 ## Project Structure
-
+salary-calculator/
+  Salary Calculator.html
+  Salary Calculator.css
+  Salary Calculator.js
+  Service Worker.js
+  Manifest.json
 ---
 
 ## Installation & Usage
