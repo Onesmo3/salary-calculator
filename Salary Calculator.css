@@ -1,0 +1,102 @@
+/* RESET NDOGO */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE YA JUMLA */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTAINER YA APP */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* TITLE */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* LABELS */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* INPUT */
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* RESULTS SECTION */
+.result {
+  margin-top: 10px;
+}
+
+.result p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* NET PAY SPECIAL */
+.result .net {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a7d2c;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 400px) {
+  .container {
+    padding: 15px;
+  }
+}

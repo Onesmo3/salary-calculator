@@ -1,0 +1,8 @@
+{
+  "name": "Salary Calculator",
+  "short_name": "Calculator",
+  "start_url": "Salary Calculator.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff"
+}
